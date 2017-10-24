@@ -2,8 +2,27 @@
 
 ## Brainstorm Ideas
 
-* ABC
-* XYZ
+# National Tell A Fairy Tale Day
+
+## Content Priority Outline >> CONTENT STRATEGY
+
+1. Cute
+2. Magical
+
+## Art Direction
+
+* Audience?
+1. ALl ages
+
+* How should they feel?
+2. Think its cute and magical
+
+* Color?
+3. Light colors
+
+## Visual Design
+
+*Collage from art Direction
 
 
 ## Content Doodle
