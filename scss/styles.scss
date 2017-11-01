@@ -1,36 +1,59 @@
 // Grand Central Station
 
 @import 'google-homepage';
-
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC|Sail');
 
 // First Frame
-img {
-    
-    opacity: .5;
-    transform: scale(.25) rotate(0);
-    width: 40%;
-    
-    transition: transform .5s;
-}
-
-// Last Frame
-img:hover {
+div img {
+    position: absolute;
     opacity: 1;
-    transform: scale(1.5) rotate(180deg);
+    height: 300px;
+    width: 400px;
+    top: 0px;
+    left: 100px;
+    transition: transform .5s;
+    z-index: 1;
 }
 
-// First Frame
-.line {
-     fill:none;
-     stroke:#8cff19;
-     stroke-width:30;
-     stroke-miterlimit:10;
+//Last Frame
+#stage:hover h1{
+    opacity: 1;
     
-    transition: stroke 1s;
 }
 
-// Last Frame
-.line:hover {
-    stroke: red;
+h1{
+  opacity:0;
+  position: relative;
+  top: -65px;
+  font-family: 'Sail', cursive;
+  color: gold;
+}
+h2{
+  font-family: 'Holtwood One SC', serif;
+  font-size: 7em;
+  color: blue;
+  margin-top: -40px;
 }
 
+.show {
+  opacity: 1;
+}
+
+// Basic Styling Google Homepage
+
+/* Stage */
+
+
+#stage:hover svg {
+    top: 50px;
+    left: 0px;
+}
+//first frame
+#dragon{
+    background: clear;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    transition: all 1s;
+    z-index:0;
+}

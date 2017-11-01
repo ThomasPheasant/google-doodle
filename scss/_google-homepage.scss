@@ -1,17 +1,15 @@
 // Basic Styling Google Homepage
 
 /* Stage */
-
-#stage {
-    background: gray;
+#stage{
+    background: clear;
     height: 300px;
     width: 600px;
+    overflow: visible;
+    position: relative;
+    margin-top: 10em;
 }
 
-#stage #star {
-    height: 100px;
-    width: 100px;
-}
 
 
 
@@ -26,6 +24,8 @@ input {
     outline: none;
     line-height: 36px;
     width: 50%;
+//  I EDITED BELOW THE LINE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+    margin-top: -40px;
 }
 
 div {
