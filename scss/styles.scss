@@ -2,6 +2,7 @@
 
 @import 'google-homepage';
 @import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC|Sail');
+@import 'animate';
 
 // First Frame
 div img {
@@ -35,6 +36,26 @@ h2{
   margin-top: -40px;
 }
 
+/*Lettering Style Temp*/
+.char1{
+    color: blue;
+}
+.char2{
+    color: red;
+}
+.char3{
+    color: gold;
+}
+.char4{
+    color: blue;
+}
+.char5{
+    color: green;
+}
+.char6{
+    color: red;
+}
+
 .show {
   opacity: 1;
 }
@@ -47,6 +68,7 @@ h2{
 #stage:hover svg {
     top: 50px;
     left: 0px;
+    animation: bounce 1s 1s infinite;
 }
 //first frame
 #dragon{
